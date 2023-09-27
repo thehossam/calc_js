@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: bl;
+
+}
+body{
+    background-image: linear-gradient(90deg , blueviolet, blue);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container .calc{
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+
+}
+input{
+    cursor: pointer;
+    color: white;
+    background-color: #111;
+    margin: 10px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+input[name="display"]{
+    width: calc(100% - 20px);
+    padding: 0 10px;
+    background-color: transparent;
+    cursor: auto;
+    
+}
+input[name="eqal"]{
+    width: 140px;
+}
+input:focus{
+    outline: none;
+}
